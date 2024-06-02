@@ -112,3 +112,31 @@ footer {
     max-width: 200px; /* Ensure the image doesn't exceed 200px in width */
     height: auto;
 }
+
+/* Styles for tabs */
+.tabs {
+    text-align: center;
+    margin-top: 1rem;
+}
+.tablinks {
+    background-color: #ddd;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+    border-radius: 4px;
+}
+.tablinks:hover {
+    background-color: #bbb;
+}
+.tablinks.active {
+    background-color: #888;
+    color: white;
+}
+.tabcontent {
+    display: none;
+    padding: 1rem 0;
+    border-top: none;
+}
