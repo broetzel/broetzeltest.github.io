@@ -31,24 +31,29 @@
                     <div class="centered-image">
                         <img src="https://i.imgur.com/plLijUW.png" alt="Professional Journey">
                     </div>
-                    <div class="sub-section">
+                    <div class="about-image">
+                        <img src="https://i.imgur.com/kqTjmjD.jpg" alt="Headshot">
+                    </div>
+                    <div class="tabs">
+                        <button class="tablinks" onclick="openTab(event, 'CreativeDemandGeneration')">Creative Demand Generation</button>
+                        <button class="tablinks" onclick="openTab(event, 'MarketingProjectManagement')">Marketing Project Management</button>
+                        <button class="tablinks" onclick="openTab(event, 'SalesBrandTraining')">Sales Brand Training</button>
+                    </div>
+                    <div id="CreativeDemandGeneration" class="tabcontent">
                         <h3>Creative Demand Generation</h3>
                         <p>Strengths here include planning and running demand generation campaigns that engage our prospective customers. Working with our product teams and industry experts, I pick out the subject matter and audience for the campaign. To better isolate our target demographic, I identify filters for a number of selective attributes. A collection of tools (e.g. ChatGPT and ZoomInfo) are used to effectively run these filters against the total pool of available accounts and produce our campaign targets. Concurrently, I meet with sales enablement and marketing to plan the cadence duration and steps, KPIs and pivot points. The collateral for each step is built by me, including but not limited to: copywriting, invite forms, webpages, and visual media. With everything in place, I'm tasked with running the campaign from start to finish. We track KPIs for engagement/outcomes, practice A/B testing for material and use this data to pivot at pre-determined points to increase the engagement rate over the lifespan of the campaign.</p>
                         <div class="centered-image">
                             <img src="https://i.imgur.com/plLijUW.png" alt="Demand Generation Image">
                         </div>
                     </div>
-                    <div class="sub-section">
+                    <div id="MarketingProjectManagement" class="tabcontent">
                         <h3>Marketing Project Management</h3>
                         <p>Placeholder text for Marketing Project Management.</p>
                     </div>
-                    <div class="sub-section">
+                    <div id="SalesBrandTraining" class="tabcontent">
                         <h3>Sales Brand Training</h3>
                         <p>Placeholder text for Sales Brand Training.</p>
                     </div>
-                </div>
-                <div class="about-image">
-                    <img src="https://i.imgur.com/kqTjmjD.jpg" alt="Headshot">
                 </div>
             </div>
         </section>
@@ -126,6 +131,23 @@
                 document.getElementById('description').style.display = 'none';
             });
         });
+
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Open the first tab by default
+        document.getElementsByClassName('tablinks')[0].click();
     </script>
 </body>
 </html>
