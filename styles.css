@@ -141,8 +141,10 @@ footer {
     border-top: none;
 }
 
-/* Full-width image */
+/* Adjusted width for full-width image */
 .full-width-image img {
-    width: 100%;
+    width: 80%; /* Adjusted width to 80% */
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
