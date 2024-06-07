@@ -141,9 +141,9 @@ footer {
     border-top: none;
 }
 
-/* Adjusted width for full-width image */
+/* Full-width image */
 .full-width-image img {
-    width: 80%; /* Adjusted width to 80% */
+    width: 100%; /* Adjusted width to 100% */
     height: auto;
     display: block;
     margin: 0 auto;
