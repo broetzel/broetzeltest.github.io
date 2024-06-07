@@ -144,8 +144,8 @@ footer {
 /* Full-width image */
 .full-width-image img {
     width: 100%; /* Adjusted width to 100% */
-    min-width: 1000px;
-    max-width: 1000px;
+    min-width: 500px;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 0 auto;
