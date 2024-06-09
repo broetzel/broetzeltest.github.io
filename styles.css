@@ -51,7 +51,6 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1rem; /* Reduced margin */
 }
 .about-text {
     flex: 2;
@@ -79,7 +78,7 @@ nav ul li a {
 }
 .full-width-image {
     text-align: center;
-    margin: 1rem 0; /* Reduced margin */
+    margin: 2rem 0;
 }
 .full-width-image img {
     width: 100%;
@@ -87,7 +86,7 @@ nav ul li a {
 }
 .tabs {
     text-align: center;
-    margin: 1rem 0; /* Reduced margin */
+    margin: 2rem 0;
 }
 .tablinks {
     background-color: #e7e7e7;
