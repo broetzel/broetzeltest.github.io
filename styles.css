@@ -141,10 +141,12 @@ footer {
     border-top: none;
 }
 
-/* Full-width image */
+/* Full-width image with scaling */
 .full-width-image img {
-    width: 110%; /* Adjusted width to 100% */
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+    transform: scale(1.1); /* Scale the image to 110% */
+    transform-origin: center; /* Scale from the center */
 }
