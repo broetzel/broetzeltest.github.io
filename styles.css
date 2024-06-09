@@ -142,6 +142,10 @@ footer {
 }
 
 /* Full-width image with scaling */
+.full-width-image {
+    width: 100%; /* Ensure the div takes the full width */
+    overflow: hidden; /* Hide overflow */
+}
 .full-width-image img {
     width: 100%;
     height: auto;
