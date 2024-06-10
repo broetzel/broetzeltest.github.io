@@ -12,6 +12,11 @@ header {
     color: white;
     padding: 1rem 0;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 nav ul {
     list-style: none;
@@ -35,7 +40,7 @@ nav ul li a {
     text-align: center;
 }
 main {
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 section {
     padding: 2rem;
@@ -70,6 +75,20 @@ section {
     flex-direction: column;
     align-items: center;
     width: 100%;
+}
+.portfolio-item .portfolio-content, .personal-project-item .personal-project-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.portfolio-item .portfolio-content p, .personal-project-item .personal-project-content p {
+    flex: 1;
+    margin-right: 1rem;
+}
+.portfolio-item .portfolio-content img, .personal-project-item .personal-project-content img {
+    max-width: 200px;
+    height: auto;
 }
 .portfolio-item button, .personal-project-item button {
     margin-top: 1rem;
