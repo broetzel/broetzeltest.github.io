@@ -32,7 +32,7 @@ header {
 header h1 {
     font-family: 'Beckan Personal Use', serif;
     color: #FEF7DE;
-    letter-spacing: 0.05em; /* Adjust this value as needed */
+    letter-spacing: 0.1em; /* Adjust this value as needed */
 }
 
 nav ul {
@@ -52,7 +52,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     position: relative;
-    letter-spacing: 0.02em; /* Adjust this value as needed */
+    letter-spacing: 0.04em; /* Adjust this value as needed */
 }
 
 .description {
