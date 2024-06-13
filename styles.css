@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
 @font-face {
     font-family: 'Beckan Personal Use';
-    src: url('https://broetzeltest.github.io/Beckan.woff') format('woff');
+    src: url('fonts/Beckan.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Consolas';
-    src: url('https://broetzeltest.github.io/consola.woff') format('woff');
+    src: url('fonts/consola.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -146,7 +148,7 @@ footer {
     margin: 1rem 0;
 }
 
-.centered-image img {
+centered-image img {
     width: 40%; /* Reduced width to 40% */
     max-width: 200px; /* Ensure the image doesn't exceed 200px in width */
     height: auto;
@@ -242,3 +244,4 @@ footer {
     text-align: center;
     margin-top: 1rem;
 }
+
