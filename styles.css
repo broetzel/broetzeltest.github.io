@@ -29,25 +29,6 @@ header {
     text-align: center;
 }
 
-.header-title {
-    margin-bottom: 1rem;
-}
-
-.header-title button {
-    background: none;
-    border: none;
-    color: white;
-    font-family: 'Beckan Personal Use', serif;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-.header-title button img {
-    vertical-align: middle;
-    margin-right: 0.5rem;
-    height: 40px;
-}
-
 .header-buttons {
     display: flex;
     justify-content: center;
@@ -57,45 +38,11 @@ header {
 .header-buttons button {
     background: none;
     border: none;
-    color: white;
-    font-family: 'Consolas', monospace;
-    font-size: 1rem;
     cursor: pointer;
 }
 
 .header-buttons button img {
-    vertical-align: middle;
-    margin-right: 0.5rem;
     height: 30px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    font-family: 'Consolas', monospace;
-    color: #FDEDBD;
-    text-decoration: none;
-    font-weight: bold;
-    position: relative;
-    letter-spacing: 0.02em;
-    word-spacing: 0.02em;
-    transform: scaleX(1.1);
-}
-
-.description {
-    display: none;
-    font-style: italic;
-    color: white;
-    text-align: center;
 }
 
 main {
