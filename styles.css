@@ -29,10 +29,44 @@ header {
     text-align: center;
 }
 
-header h1 {
+.header-title {
+    margin-bottom: 1rem;
+}
+
+.header-title button {
+    background: none;
+    border: none;
+    color: white;
     font-family: 'Beckan Personal Use', serif;
-    color: #FEF7DE;
-    letter-spacing: 0.1em; /* Adjust this value as needed */
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.header-title button img {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    height: 40px;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header-buttons button {
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Consolas', monospace;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.header-buttons button img {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    height: 30px;
 }
 
 nav ul {
@@ -52,7 +86,9 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     position: relative;
-    letter-spacing: 0.04em; /* Adjust this value as needed */
+    letter-spacing: 0.02em;
+    word-spacing: 0.02em;
+    transform: scaleX(1.1);
 }
 
 .description {
