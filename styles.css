@@ -32,6 +32,7 @@ header {
 header h1 {
     font-family: 'Beckan Personal Use', serif;
     color: #FEF7DE;
+    letter-spacing: 0.05em; /* Adjust this value as needed */
 }
 
 nav ul {
@@ -51,6 +52,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     position: relative;
+    letter-spacing: 0.02em; /* Adjust this value as needed */
 }
 
 .description {
@@ -148,7 +150,7 @@ footer {
     margin: 1rem 0;
 }
 
-centered-image img {
+.centered-image img {
     width: 40%; /* Reduced width to 40% */
     max-width: 200px; /* Ensure the image doesn't exceed 200px in width */
     height: auto;
@@ -244,4 +246,3 @@ centered-image img {
     text-align: center;
     margin-top: 1rem;
 }
-
