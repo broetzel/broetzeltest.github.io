@@ -24,7 +24,7 @@ header {
 }
 
 .header-new-button button img {
-    height: 80px; /* Double the previous height */
+    height: 120px; /* Increased height by 50% */
 }
 
 .header-buttons {
