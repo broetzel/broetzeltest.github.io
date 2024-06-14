@@ -143,17 +143,17 @@ footer {
 }
 
 /* New styles for enlarged images */
-.enlarged-image-creative-demand img {
-    width: 20%; /* Increased width by 50% */
+.creative-demand-image {
+    width: 200%; /* Increased width by 50% */
     height: auto;
 }
 
-.enlarged-image-marketing-project img {
+.marketing-project-image {
     width: 60%; /* Increased width by 50% */
     height: auto;
 }
 
-.enlarged-image-sales-brand img {
+.sales-brand-image {
     width: 60%; /* Increased width by 50% */
     height: auto;
 }
