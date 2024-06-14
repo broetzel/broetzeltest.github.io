@@ -39,6 +39,7 @@ header {
     background: none;
     border: none;
     cursor: pointer;
+    position: relative;
 }
 
 .header-buttons button img {
@@ -48,10 +49,10 @@ header {
 .header-gif {
     height: 30px; /* Adjust the height to match the buttons */
     margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
+    position: relative;
 }
 
 .header-buttons .about-me-button {
-    position: relative;
     left: -10px; /* Adjust this value as needed for overlap */
 }
 
