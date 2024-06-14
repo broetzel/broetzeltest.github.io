@@ -142,10 +142,10 @@ footer {
     height: auto;
 }
 
-/* New styles for large image */
-.large-image img {
-    width: 80%; /* Double the original width */
-    max-width: 400px; /* Ensure the image doesn't exceed 400px in width */
+/* New styles for enlarged image */
+.enlarged-image img {
+    width: 60%; /* Increased width by 50% from the original 40% */
+    max-width: 300px; /* Increased max-width by 50% from the original 200px */
     height: auto;
 }
 
