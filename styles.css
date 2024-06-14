@@ -32,6 +32,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 0.5rem; /* Reduced gap */
+    position: relative;
 }
 
 .header-buttons button {
@@ -47,6 +48,11 @@ header {
 .header-gif {
     height: 30px; /* Adjust the height to match the buttons */
     margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
+}
+
+.header-buttons .about-me-button {
+    position: relative;
+    left: -10px; /* Adjust this value as needed for overlap */
 }
 
 main {
