@@ -56,6 +56,10 @@ header {
     left: -20px; /* Increased overlap value */
 }
 
+.header-buttons .personal-button {
+    right: -20px; /* Increased overlap value */
+}
+
 main {
     padding-top: 2rem;
     margin: 0;
@@ -175,3 +179,4 @@ footer {
     transform: scale(1.05); /* Scale the image to 105% */
     transform-origin: center; /* Scale from the center */
 }
+
