@@ -143,8 +143,8 @@ footer {
 }
 
 /* New styles for enlarged image */
-.sub-section-image img {
-    width: 60%; /* Increased width by 50% */
+.enlarged-image img {
+    width: 150%; /* Increased width by 50% */
     max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
     height: auto;
 }
