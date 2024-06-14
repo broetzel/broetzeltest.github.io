@@ -188,3 +188,8 @@ footer {
     transform: scale(1.05); /* Scale the image to 105% */
     transform-origin: center; /* Scale from the center */
 }
+
+/* Margin for subsections within tabs */
+.sub-section-content {
+    margin: 0 2rem;
+}
