@@ -142,6 +142,13 @@ footer {
     height: auto;
 }
 
+/* New styles for large image */
+.large-image img {
+    width: 80%; /* Double the original width */
+    max-width: 400px; /* Ensure the image doesn't exceed 400px in width */
+    height: auto;
+}
+
 /* Styles for tabs */
 .tabs {
     text-align: center;
