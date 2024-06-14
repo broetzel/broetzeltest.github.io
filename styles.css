@@ -143,18 +143,21 @@ footer {
 }
 
 /* New styles for enlarged images */
-.creative-demand-image {
-    width: 200%; /* Increased width by 50% */
+.enlarged-image-creative-demand img,
+.enlarged-image-creative-demand .creative-demand-image {
+    width: 120%;
     height: auto;
 }
 
-.marketing-project-image {
-    width: 60%; /* Increased width by 50% */
+.enlarged-image-marketing-project img,
+.enlarged-image-marketing-project .marketing-project-image {
+    width: 120%;
     height: auto;
 }
 
-.sales-brand-image {
-    width: 60%; /* Increased width by 50% */
+.enlarged-image-sales-brand img,
+.enlarged-image-sales-brand .sales-brand-image {
+    width: 120%;
     height: auto;
 }
 
