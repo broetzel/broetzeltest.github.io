@@ -24,11 +24,12 @@ header {
 }
 
 .header-new-button button img {
-    height: 120px; /* Increased height by 50% */
+    height: 120px; /* Adjust height as needed */
 }
 
 .header-buttons {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 1rem;
 }
@@ -41,6 +42,10 @@ header {
 
 .header-buttons button img {
     height: 30px;
+}
+
+.header-gif {
+    height: 30px; /* Adjust the height to match the buttons */
 }
 
 main {
