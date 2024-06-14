@@ -143,9 +143,9 @@ footer {
 }
 
 /* New styles for enlarged image */
-.enlarged-image img {
-    width: 60%; /* Increased width by 50% from the original 40% */
-    max-width: 300px; /* Increased max-width by 50% from the original 200px */
+.sub-section-image img {
+    width: 60%; /* Increased width by 50% */
+    max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
     height: auto;
 }
 
