@@ -53,7 +53,7 @@ header {
 }
 
 .header-buttons .about-me-button {
-    left: -10px; /* Adjust this value as needed for overlap */
+    left: -20px; /* Increased overlap value */
 }
 
 main {
