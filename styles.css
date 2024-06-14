@@ -31,7 +31,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem; /* Reduced gap */
 }
 
 .header-buttons button {
@@ -46,6 +46,7 @@ header {
 
 .header-gif {
     height: 30px; /* Adjust the height to match the buttons */
+    margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
 }
 
 main {
