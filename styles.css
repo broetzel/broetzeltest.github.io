@@ -144,20 +144,17 @@ footer {
 
 /* New styles for enlarged images */
 .enlarged-image-creative-demand img {
-    width: 100%; /* Increased width by 50% */
-    max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
+    width: 120%; /* Increased width by 50% */
     height: auto;
 }
 
 .enlarged-image-marketing-project img {
-    width: 100%; /* Increased width by 50% */
-    max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
+    width: 60%; /* Increased width by 50% */
     height: auto;
 }
 
 .enlarged-image-sales-brand img {
-    width: 100%; /* Increased width by 50% */
-    max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
+    width: 60%; /* Increased width by 50% */
     height: auto;
 }
 
