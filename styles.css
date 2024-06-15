@@ -175,6 +175,21 @@ footer p {
 .tabs {
     text-align: center;
     margin-top: 1rem;
+    position: relative;
+    z-index: 0;
+}
+
+.tabs::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
+    background-size: cover;
+    object-fit: fill;
+    z-index: -1;
 }
 
 .tablinks {
@@ -186,6 +201,8 @@ footer p {
     font-size: 16px;
     margin: 0 5px;
     border-radius: 4px;
+    position: relative;
+    z-index: 1;
 }
 
 .tablinks:hover {
@@ -225,8 +242,28 @@ footer p {
 
 /* New class for the additional sub-section image */
 .new-sub-section-image {
+    max-width: 50%; /* Set the max-width to 50% to make it smaller */
+    height: auto;
+    display: block;
+    margin: 6rem auto; /* Add margin of 6rem */
+}
+
+/* Styling for the Marketing Project Image */
+.marketing-project-image {
+    max-width: 50%; /* Set the max-width to 50% to make it smaller */
+    height: auto;
+    display: block;
+    margin: 6rem auto; /* Add margin of 6rem */
+}
+
+/* Styling for the Seller Sell Image */
+.new-seller-image {
     max-width: 35%; /* Set the max-width to 50% to make it smaller */
     height: auto;
+    display: block;
+    margin: 6rem auto; /* Add margin of 6rem */
+}
+
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
 }
