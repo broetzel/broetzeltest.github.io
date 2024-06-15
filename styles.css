@@ -205,7 +205,7 @@ footer {
 
 /* New class for the additional sub-section image */
 .new-sub-section-image {
-    max-width: 40%; /* Set the max-width to 50% to make it smaller */
+    max-width: 35%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
