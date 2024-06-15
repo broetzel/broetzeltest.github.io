@@ -232,6 +232,15 @@ footer p {
     margin: 0 auto;
 }
 
+/* New styles for the Deaux Image */
+.deaux-image {
+    width: auto;
+    max-width: 100%; /* Ensure the image does not exceed container width */
+    max-height: 100px; /* Set a maximum height */
+    display: block;
+    margin: 0 auto;
+}
+
 /* Hide all tab contents by default */
 .tabcontent {
     display: none;
