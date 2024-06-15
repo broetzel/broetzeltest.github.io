@@ -171,38 +171,6 @@ footer p {
     margin: 1rem auto;
 }
 
-/* Styles for tabs */
-.tabs {
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.tablinks {
-    background-color: #ddd;
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 0 5px;
-    border-radius: 4px;
-}
-
-.tablinks:hover {
-    background-color: #bbb;
-}
-
-.tablinks.active {
-    background-color: #888;
-    color: white;
-}
-
-.tabcontent {
-    display: none;
-    padding: 1rem 0;
-    border-top: none;
-}
-
 /* Full-width image with scaling */
 .full-width-image {
     width: 100%; /* Ensure the div takes the full width */
@@ -245,13 +213,4 @@ footer p {
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
-}
-
-/* Styles for Tab Picker Section */
-.tab-picker {
-    padding: 2rem 0;
-    margin: 2rem 0;
-    background-color: #f9f9f9; /* Light background color to differentiate */
-    border: 1px solid #ddd; /* Light border */
-    text-align: center; /* Center any future contents */
 }
