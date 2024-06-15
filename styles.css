@@ -227,10 +227,9 @@ footer p {
 }
 
 .centered-image-new {
-    width: 40%; /* Adjust the size as needed */
-    max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
-    height: auto;
-    max-height: 150px; /* Set a maximum height for the image */
+    width: auto; /* Set width to auto */
+    max-width: 100%; /* Ensure the image does not exceed container width */
+    max-height: 100px; /* Set a maximum height */
     display: block;
     margin: 0 auto;
 }
