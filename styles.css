@@ -144,7 +144,7 @@ footer {
 
 /* New class for About Me Title Image */
 .about-me-title-image {
-    width: 50%; /* Set width as needed */
+    width: 60%; /* Set width as needed */
     max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
     height: auto;
     display: block;
