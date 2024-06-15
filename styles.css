@@ -174,44 +174,17 @@ footer p {
 /* Styles for tabs */
 .tabs {
     text-align: center;
-    margin-top: 1rem;
-    position: relative;
-    z-index: 0;
-}
-
-.tabs::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
-    background-size: cover;
-    object-fit: fill;
-    z-index: -1;
+    margin-top: 20px;
 }
 
 .tablinks {
-    background-color: transparent; /* Set background to transparent */
+    background-color: transparent; /* Ensure background is transparent */
     border: none;
     outline: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
     margin: 0 5px;
-    border-radius: 4px;
-    position: relative;
-    z-index: 1;
-}
-
-.tablinks:hover {
-    background-color: #bbb;
-}
-
-.tablinks.active {
-    background-color: #888;
-    color: white;
 }
 
 .tablinks img {
@@ -221,12 +194,20 @@ footer p {
     margin: 0 auto;
     background: transparent; /* Ensure background is transparent */
     border: none; /* Ensure no border is applied */
-    outline: none; /* Remove any default outline */
+}
+
+.tablinks:hover {
+    background-color: #ddd;
+}
+
+.tablinks.active {
+    background-color: #888;
+    color: white;
 }
 
 .tabcontent {
     display: none;
-    padding: 1rem 0;
+    padding: 20px;
     border-top: none;
 }
 
