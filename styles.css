@@ -170,8 +170,9 @@ footer p {
 
 /* Full-width image with scaling */
 .full-width-image {
-    width: 100%; /* Ensure the div takes the full width */
-    overflow: hidden; /* Hide overflow */
+    width: 100%;
+    overflow: hidden;
+    margin: 0; /* Ensure no margin around full-width images */
 }
 
 .full-width-image img {
@@ -180,7 +181,7 @@ footer p {
     display: block;
     margin: 0 auto;
     transform: scale(1.05); /* Scale the image to 105% */
-    transform-origin: center; /* Scale from the center */
+    transform-origin: center;
 }
 
 /* Margin for subsections within tabs */
@@ -245,4 +246,12 @@ footer p {
 #about .full-width-image {
     padding: 0;
     margin: 0;
+}
+
+/* New class for Sub-section End Image */
+.sub-section-end-image {
+    width: 100%; /* Ensure the image takes the full width */
+    height: auto;
+    display: block;
+    margin: 0; /* Remove margins */
 }
