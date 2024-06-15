@@ -214,3 +214,19 @@ footer p {
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
 }
+
+/* New styles for the new subsection */
+.new-subsection {
+    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
+    background-size: cover;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.centered-image-new {
+    width: 40%; /* Adjust the size as needed */
+    max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
