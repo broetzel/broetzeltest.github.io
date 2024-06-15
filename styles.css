@@ -142,25 +142,6 @@ footer {
     height: auto;
 }
 
-/* New styles for enlarged images */
-.enlarged-image-creative-demand img,
-.enlarged-image-creative-demand .creative-demand-image {
-    width: 120%;
-    height: auto;
-}
-
-.enlarged-image-marketing-project img,
-.enlarged-image-marketing-project .marketing-project-image {
-    width: 120%;
-    height: auto;
-}
-
-.enlarged-image-sales-brand img,
-.enlarged-image-sales-brand .sales-brand-image {
-    width: 120%;
-    height: auto;
-}
-
 /* Styles for tabs */
 .tabs {
     text-align: center;
