@@ -196,10 +196,8 @@ footer {
 
 /* New class for the additional sub-section image */
 .new-sub-section-image {
-    width: 100%;
+    width: 50%; /* Set the width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 0 auto;
-    transform: scale(1.05); /* If needed, adjust as required */
-    transform-origin: center; /* Scale from the center */
 }
