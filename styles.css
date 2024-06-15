@@ -246,3 +246,12 @@ footer p {
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
 }
+
+/* Styles for Tab Picker Section */
+.tab-picker {
+    padding: 2rem 0;
+    margin: 2rem 0;
+    background-color: #f9f9f9; /* Light background color to differentiate */
+    border: 1px solid #ddd; /* Light border */
+    text-align: center; /* Center any future contents */
+}
