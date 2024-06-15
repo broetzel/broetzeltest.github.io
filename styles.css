@@ -225,7 +225,7 @@ footer p {
 
 /* New class for the additional sub-section image */
 .new-sub-section-image {
-    max-width: 50%; /* Set the max-width to 50% to make it smaller */
+    max-width: 35%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
@@ -233,7 +233,7 @@ footer p {
 
 /* Styling for the Marketing Project Image */
 .marketing-project-image {
-    max-width: 50%; /* Set the max-width to 50% to make it smaller */
+    max-width: 35%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
@@ -241,7 +241,7 @@ footer p {
 
 /* Styling for the Seller Sell Image */
 .new-seller-image {
-    max-width: 35%; /* Set the max-width to 50% to make it smaller */
+    max-width: 25%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
