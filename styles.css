@@ -193,7 +193,7 @@ footer p {
 }
 
 .tablinks {
-    background-color: #ddd;
+    background-color: transparent; /* Set background to transparent */
     border: none;
     outline: none;
     padding: 10px 20px;
