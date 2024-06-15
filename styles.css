@@ -174,30 +174,22 @@ footer p {
 /* Styles for tabs */
 .tabs {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 
 .tablinks {
-    background-color: transparent; /* Ensure background is transparent */
+    background-color: #ddd;
     border: none;
     outline: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
     margin: 0 5px;
-}
-
-.tablinks img {
-    width: 100px; /* Adjust width as needed */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    background: transparent; /* Ensure background is transparent */
-    border: none; /* Ensure no border is applied */
+    border-radius: 4px;
 }
 
 .tablinks:hover {
-    background-color: #ddd;
+    background-color: #bbb;
 }
 
 .tablinks.active {
@@ -207,7 +199,7 @@ footer p {
 
 .tabcontent {
     display: none;
-    padding: 20px;
+    padding: 1rem 0;
     border-top: none;
 }
 
@@ -233,7 +225,7 @@ footer p {
 
 /* New class for the additional sub-section image */
 .new-sub-section-image {
-    max-width: 50%; /* Set the max-width to 50% to make it smaller */
+    max-width: 35%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
@@ -241,7 +233,7 @@ footer p {
 
 /* Styling for the Marketing Project Image */
 .marketing-project-image {
-    max-width: 50%; /* Set the max-width to 50% to make it smaller */
+    max-width: 35%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
@@ -249,7 +241,7 @@ footer p {
 
 /* Styling for the Seller Sell Image */
 .new-seller-image {
-    max-width: 35%; /* Set the max-width to 50% to make it smaller */
+    max-width: 25%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
