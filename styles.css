@@ -220,7 +220,7 @@ footer p {
     background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
     background-size: cover;
     object-fit: fill;
-    padding: 1rem 0; /* Reduced vertical space */
+    padding: 0.5rem 0; /* Further reduced vertical space */
     text-align: center;
     max-width: 100%; /* Reset the max width to 100% */
     margin: 0 auto; /* Center the subsection */
