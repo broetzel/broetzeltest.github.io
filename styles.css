@@ -82,7 +82,6 @@ header .header-buttons .personal-button {
 
 main {
     flex: 1;
-    padding-top: 0rem;
     margin: 0;
 }
 
@@ -234,6 +233,8 @@ footer p {
 /* Hide all tab contents by default */
 .tabcontent {
     display: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Show the first tab content by default */
