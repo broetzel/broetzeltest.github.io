@@ -209,3 +209,11 @@ footer {
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
 }
+
+/* Styling for the Seller Sell Image */
+.new-seller-image {
+    max-width: 50%; /* Set the max-width to 50% to make it smaller */
+    height: auto;
+    display: block;
+    margin: 6rem auto; /* Add margin of 6rem */
+}
