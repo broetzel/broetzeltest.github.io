@@ -230,6 +230,7 @@ footer p {
     width: 40%; /* Adjust the size as needed */
     max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
     height: auto;
+    max-height: 150px; /* Set a maximum height for the image */
     display: block;
     margin: 0 auto;
 }
