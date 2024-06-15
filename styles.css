@@ -199,5 +199,5 @@ footer {
     width: 50%; /* Set the width to 50% to make it smaller */
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 6rem auto; /* Add margin of 6rem */
 }
