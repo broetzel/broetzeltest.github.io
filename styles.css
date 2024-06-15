@@ -126,8 +126,28 @@ section {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #222;
+    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
+    background-size: cover;
     color: white;
+    position: relative;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
+    background-size: cover;
+    object-fit: fill;
+    z-index: -1;
+}
+
+footer p {
+    position: relative;
+    z-index: 1;
 }
 
 /* New styles for centered image */
@@ -205,7 +225,7 @@ footer {
 
 /* New class for the additional sub-section image */
 .new-sub-section-image {
-    max-width: 35%; /* Set the max-width to 50% to make it smaller */
+    max-width: 50%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
@@ -213,7 +233,7 @@ footer {
 
 /* Styling for the Marketing Project Image */
 .marketing-project-image {
-    max-width: 35%; /* Set the max-width to 50% to make it smaller */
+    max-width: 50%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
@@ -221,7 +241,7 @@ footer {
 
 /* Styling for the Seller Sell Image */
 .new-seller-image {
-    max-width: 25%; /* Set the max-width to 50% to make it smaller */
+    max-width: 35%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
