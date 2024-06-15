@@ -246,8 +246,3 @@ footer p {
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
 }
-
-/* Style for new tab button image */
-.tab-button-image {
-    height: 20px; /* Adjust height as needed */
-}
