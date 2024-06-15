@@ -243,3 +243,9 @@ footer p {
 #CreativeDemandGeneration {
     display: block;
 }
+
+/* Remove padding and margin for the about section image */
+#about .full-width-image {
+    padding: 0;
+    margin: 0;
+}
