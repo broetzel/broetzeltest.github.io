@@ -22,67 +22,7 @@ header {
     position: relative;
 }
 
-.header-new-button {
-    margin-bottom: 1rem;
-}
-
-.header-new-button a {
-    display: inline-block;
-}
-
-.header-new-button button {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.header-new-button button img {
-    height: 120px; /* Adjust height as needed */
-}
-
-.header-gif-container {
-    position: absolute;
-    top: 50%;
-    left: 1rem;
-    transform: translateY(-50%);
-}
-
-.header-gif-top-left {
-    height: 60px; /* Adjust height as needed */
-}
-
-.header-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem; /* Reduced gap */
-    position: relative;
-}
-
-.header-buttons button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    position: relative;
-}
-
-.header-buttons button img {
-    height: 30px;
-}
-
-.header-gif {
-    height: 30px; /* Adjust the height to match the buttons */
-    margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
-    position: relative;
-}
-
-.header-buttons .about-me-button {
-    left: -20px; /* Increased overlap value */
-}
-
-.header-buttons .personal-button {
-    right: -20px; /* Increased overlap value */
-}
+/* ...other header styles... */
 
 main {
     padding-top: 2rem;
@@ -106,10 +46,6 @@ section {
 .about-text {
     flex: 2;
     margin-right: 2rem;
-}
-
-.about-text h3 {
-    margin-top: 1.5rem;
 }
 
 .about-image {
@@ -136,19 +72,12 @@ footer {
     margin: 1rem 0;
 }
 
-.centered-image img {
-    width: 40%; /* Reduced width to 40% */
-    max-width: 200px; /* Ensure the image doesn't exceed 200px in width */
-    height: auto;
-}
-
 /* New class for About Me Title Image */
 .about-me-title-image {
-    width: 60%; /* Set width as needed */
-    max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
+    max-width: 50%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
-    margin: 1rem auto;
+    margin: 6rem auto; /* Add margin of 6rem */
 }
 
 /* Styles for tabs */
