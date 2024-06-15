@@ -136,7 +136,7 @@ footer {
     margin: 1rem 0;
 }
 
-centered-image img {
+.centered-image img {
     width: 40%; /* Reduced width to 40% */
     max-width: 200px; /* Ensure the image doesn't exceed 200px in width */
     height: auto;
@@ -204,14 +204,6 @@ centered-image img {
 
 /* Styling for the Marketing Project Image */
 .marketing-project-image {
-    max-width: 50%; /* Set the max-width to 50% to make it smaller */
-    height: auto;
-    display: block;
-    margin: 6rem auto; /* Add margin of 6rem */
-}
-
-/* Styling for the Sales Brand Image */
-.sales-brand-image {
     max-width: 50%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
