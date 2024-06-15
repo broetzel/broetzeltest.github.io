@@ -219,8 +219,11 @@ footer p {
 .new-subsection {
     background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
     background-size: cover;
-    padding: 4rem 0;
+    object-fit: fill;
+    padding: 2rem 0; /* Reduced vertical space */
     text-align: center;
+    max-width: 80%; /* Make the subsection narrower */
+    margin: 0 auto; /* Center the subsection */
 }
 
 .centered-image-new {
