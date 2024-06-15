@@ -72,12 +72,13 @@ footer {
     margin: 1rem 0;
 }
 
-/* New class for About Me Title Image */
+/* Revert to original styles for About Me Title Image */
 .about-me-title-image {
-    max-width: 50%; /* Set the max-width to 50% to make it smaller */
+    width: 50%; /* Set width as needed */
+    max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
     height: auto;
     display: block;
-    margin: 6rem auto; /* Add margin of 6rem */
+    margin: 1rem auto;
 }
 
 /* Styles for tabs */
