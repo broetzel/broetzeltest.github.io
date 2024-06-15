@@ -214,6 +214,13 @@ footer p {
     color: white;
 }
 
+.tablinks img {
+    width: 100px; /* Adjust width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .tabcontent {
     display: none;
     padding: 1rem 0;
@@ -259,26 +266,6 @@ footer p {
 /* Styling for the Seller Sell Image */
 .new-seller-image {
     max-width: 35%; /* Set the max-width to 50% to make it smaller */
-    height: auto;
-    display: block;
-    margin: 6rem auto; /* Add margin of 6rem */
-}
-
-    display: block;
-    margin: 6rem auto; /* Add margin of 6rem */
-}
-
-/* Styling for the Marketing Project Image */
-.marketing-project-image {
-    max-width: 35%; /* Set the max-width to 50% to make it smaller */
-    height: auto;
-    display: block;
-    margin: 6rem auto; /* Add margin of 6rem */
-}
-
-/* Styling for the Seller Sell Image */
-.new-seller-image {
-    max-width: 25%; /* Set the max-width to 50% to make it smaller */
     height: auto;
     display: block;
     margin: 6rem auto; /* Add margin of 6rem */
