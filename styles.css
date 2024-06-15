@@ -219,6 +219,9 @@ footer p {
     height: auto;
     display: block;
     margin: 0 auto;
+    background: transparent; /* Ensure background is transparent */
+    border: none; /* Ensure no border is applied */
+    outline: none; /* Remove any default outline */
 }
 
 .tabcontent {
