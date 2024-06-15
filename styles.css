@@ -142,6 +142,15 @@ footer {
     height: auto;
 }
 
+/* New class for About Me Title Image */
+.about-me-title-image {
+    width: 50%; /* Set width as needed */
+    max-width: 300px; /* Ensure the image doesn't exceed 300px in width */
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
 /* Styles for tabs */
 .tabs {
     text-align: center;
