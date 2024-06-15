@@ -193,3 +193,13 @@ footer {
 .sub-section-content {
     margin: 0 2rem;
 }
+
+/* New class for the additional sub-section image */
+.new-sub-section-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transform: scale(1.05); /* If needed, adjust as required */
+    transform-origin: center; /* Scale from the center */
+}
