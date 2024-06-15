@@ -233,3 +233,13 @@ footer p {
     display: block;
     margin: 0 auto;
 }
+
+/* Hide all tab contents by default */
+.tabcontent {
+    display: none;
+}
+
+/* Show the first tab content by default */
+#CreativeDemandGeneration {
+    display: block;
+}
