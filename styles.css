@@ -222,7 +222,8 @@ footer p {
     object-fit: fill;
     padding: 2rem 0; /* Reduced vertical space */
     text-align: center;
-    max-width: 10%; /* Make the subsection narrower */
+    max-width: 100%; /* Make the subsection narrower */
+    max-height: 50%;
     margin: 0 auto; /* Center the subsection */
 }
 
