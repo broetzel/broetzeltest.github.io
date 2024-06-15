@@ -1,16 +1,12 @@
-@font-face {
-    font-family: 'Consolas';
-    src: url('fonts/consola.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -22,36 +18,36 @@ header {
     position: relative;
 }
 
-.header-new-button {
+header .header-new-button {
     margin-bottom: 1rem;
 }
 
-.header-new-button a {
+header .header-new-button a {
     display: inline-block;
 }
 
-.header-new-button button {
+header .header-new-button button {
     background: none;
     border: none;
     cursor: pointer;
 }
 
-.header-new-button button img {
+header .header-new-button button img {
     height: 120px; /* Adjust height as needed */
 }
 
-.header-gif-container {
+header .header-gif-container {
     position: absolute;
     top: 50%;
     left: 1rem;
     transform: translateY(-50%);
 }
 
-.header-gif-top-left {
+header .header-gif-top-left {
     height: 60px; /* Adjust height as needed */
 }
 
-.header-buttons {
+header .header-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,32 +55,33 @@ header {
     position: relative;
 }
 
-.header-buttons button {
+header .header-buttons button {
     background: none;
     border: none;
     cursor: pointer;
     position: relative;
 }
 
-.header-buttons button img {
+header .header-buttons button img {
     height: 30px;
 }
 
-.header-gif {
+header .header-gif {
     height: 30px; /* Adjust the height to match the buttons */
     margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
     position: relative;
 }
 
-.header-buttons .about-me-button {
+header .header-buttons .about-me-button {
     left: -20px; /* Increased overlap value */
 }
 
-.header-buttons .personal-button {
+header .header-buttons .personal-button {
     right: -20px; /* Increased overlap value */
 }
 
 main {
+    flex: 1;
     padding-top: 0rem;
     margin: 0;
 }
