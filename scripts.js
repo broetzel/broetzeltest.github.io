@@ -29,3 +29,18 @@ function unoButtonPressed() {
 
 // Add event listener to Uno button
 document.querySelector('.uno-button').addEventListener('click', unoButtonPressed);
+
+// Function to change images and switch tab when Dos button is pressed
+function dosButtonPressed() {
+    // Change the image of Dos button
+    document.querySelector('.dos-button img').src = "https://i.imgur.com/rPkVScg.png";
+    // Change the image of Uno button
+    document.querySelector('.uno-button img').src = "https://i.imgur.com/yrdsbUV.png";
+    // Change the image of Tres button
+    document.querySelector('.tres-button img').src = "https://i.imgur.com/RvwhXfc.png";
+    // Switch to the MarketingProjectManagement tab
+    openTab(null, 'MarketingProjectManagement');
+}
+
+// Add event listener to Dos button
+document.querySelector('.dos-button').addEventListener('click', dosButtonPressed);
