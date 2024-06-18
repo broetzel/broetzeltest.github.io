@@ -10,6 +10,9 @@ function openTab(evt, tabName) {
 // Open the default tab by default
 document.addEventListener("DOMContentLoaded", function() {
     openTab(null, 'CreativeDemandGeneration');
+    
+    // Set the default image for Uno button
+    document.querySelector('.uno-button img').src = "https://i.imgur.com/LpOuUoA.png";
 });
 
 // Function to change images and switch tab when Uno button is pressed
