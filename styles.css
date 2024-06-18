@@ -227,28 +227,24 @@ footer p {
     justify-content: center;
 }
 
-.centered-image-new {
+.uno-button,
+.dos-button,
+.tres-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 10px; /* Add some margin around the buttons */
+    cursor: pointer;
+}
+
+.centered-image-new,
+.deaux-image,
+.troix-image {
     width: auto; /* Set width to auto */
     max-width: 100%; /* Ensure the image does not exceed container width */
     max-height: 100px; /* Set a maximum height */
     display: block;
-    margin: 0 10px; /* Add some margin to the right */
-}
-
-.deaux-image {
-    width: auto;
-    max-width: 100%; /* Ensure the image does not exceed container width */
-    max-height: 100px; /* Set a maximum height */
-    display: block;
-    margin: 0 10px; /* Add some margin to the left and right */
-}
-
-.troix-image {
-    width: auto;
-    max-width: 100%; /* Ensure the image does not exceed container width */
-    max-height: 100px; /* Set a maximum height */
-    display: block;
-    margin: 0 10px; /* Add some margin to the left */
+    margin: 0; /* Remove margin */
 }
 
 /* Hide all tab contents by default */
